@@ -1,7 +1,7 @@
 # reverse_mortgage.py
 import sys
 sys.path.append("src")
-from console.input_validator import InputValidator, MIN_PROPERTY_VALUE, MAX_PROPERTY_VALUE, MAX_AGE, MIN_AGE_LIMIT, MIN_INTEREST_RATE, MAX_INTEREST_RATE
+from logic.input_validator import InputValidator, MIN_PROPERTY_VALUE, MAX_PROPERTY_VALUE, MAX_AGE, MIN_AGE_LIMIT, MIN_INTEREST_RATE, MAX_INTEREST_RATE
 from logic.exceptions import (
     DataTypeError,
     InvalidPropertyValueError,

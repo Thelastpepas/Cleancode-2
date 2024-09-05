@@ -1,7 +1,7 @@
 # input_handler.py
 import sys
 sys.path.append("src")
-from console.input_validator import MIN_PROPERTY_VALUE, MAX_PROPERTY_VALUE, MIN_AGE_LIMIT, MIN_INTEREST_RATE, MAX_INTEREST_RATE
+from logic.input_validator import MIN_PROPERTY_VALUE, MAX_PROPERTY_VALUE, MIN_AGE_LIMIT, MIN_INTEREST_RATE, MAX_INTEREST_RATE
 
 def get_input(prompt: str, expected_type: type = str, valid_values: list = None):
     """
